@@ -1,0 +1,43 @@
+# The superproject tracks submodule pointers and its own docs — nothing else.
+# Build output of the submodules is ignored here as well so a stray `cargo build`
+# at the wrong level never shows up in `git status` of this repo.
+
+# Rust
+target/
+**/target/
+*.rlib
+*.rmeta
+
+# Go
+bin/
+*.test
+*.out
+
+# JVM artifacts produced while testing the compile pipeline
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Native artifacts of the platform FFI
+*.so
+*.dylib
+*.dll
+*.a
+*.h.gch
+
+# Node / website
+node_modules/
+dist/
+.next/
+.astro/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Local environment
+.env
+.env.*
+!.env.example

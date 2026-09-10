@@ -1,0 +1,22 @@
+[submodule "platform"]
+	path = platform
+	url = https://github.com/bytekodex/bytekodex-platform.git
+	branch = master
+[submodule "telegram"]
+	path = telegram
+	url = https://github.com/bytekodex/bytekodex-telegram.git
+	branch = master
+[submodule "website"]
+	path = website
+	url = https://github.com/bytekodex/bytekodex-website.git
+	branch = master
+[submodule "reference/painter"]
+	path = reference/painter
+	url = https://github.com/bytekodex/bytekodex-painter.git
+	branch = master
+	shallow = true
+[submodule "reference/antlr"]
+	path = reference/antlr
+	url = https://github.com/bytekodex/bytekodex-antlr.git
+	branch = master
+	shallow = true
