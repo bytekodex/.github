@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.insertFinalNewline": true,
+  "editor.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/target": true,
+    "**/node_modules": true
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
+}

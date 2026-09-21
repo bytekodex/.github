@@ -36,6 +36,13 @@ cd bytekodex
 git submodule update --init platform telegram website
 ```
 
+## Editor setup
+
+Open [`bytekodex.code-workspace`](bytekodex.code-workspace) in VS Code rather than the plain
+folder to see every submodule as its own root with one shared settings and extension-recommendation
+set. Each submodule also carries its own `.vscode/settings.json` for whoever opens just that one
+repository on its own.
+
 ## Working in the workspace
 
 Submodules stay independent, which means the usual rule applies: commit and push inside the submodule first,

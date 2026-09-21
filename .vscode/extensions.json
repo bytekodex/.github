@@ -1,0 +1,23 @@
+{
+  // One list for the whole org: every extension any child repository needs, so opening either
+  // the multi-root workspace at the top of this repo or any single submodule on its own prompts
+  // for the same set. Kept to what is actually used somewhere in the tree, not a general
+  // "nice to have" grab bag.
+  "recommendations": [
+    // platform, reference/painter — Rust
+    "rust-lang.rust-analyzer",
+    "tamasfe.even-better-toml",
+    // telegram — Go
+    "golang.go",
+    // reference/antlr, reference/painter/antlr — grammar files
+    "mike-lischke.vscode-antlr4",
+    // telegram/Dockerfile.bot, reference/painter/Dockerfile
+    "ms-azuretools.vscode-docker",
+    // every repo's GitHub Actions workflows and toolchains manifest/lock
+    "redhat.vscode-yaml",
+    // every repo ships an .editorconfig; this is what actually makes VS Code obey it
+    "editorconfig.editorconfig",
+    // every repo is documented in Markdown
+    "davidanson.vscode-markdownlint"
+  ]
+}

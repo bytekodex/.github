@@ -33,7 +33,9 @@ dist/
 
 # Editors and OS
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .DS_Store
 *.swp
 

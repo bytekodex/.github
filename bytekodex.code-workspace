@@ -1,0 +1,48 @@
+{
+  // Open this file (File > Open Workspace from File...) instead of the plain folder to see every
+  // submodule as its own root while still getting one unified settings/extensions set. Each
+  // submodule also carries its own .vscode/settings.json for whoever opens just that one repo on
+  // its own — this file is the "all of them at once" case, not a replacement for those.
+  "folders": [
+    { "name": "bytekodex (root)", "path": "." },
+    { "name": "platform", "path": "platform" },
+    { "name": "telegram", "path": "telegram" },
+    { "name": "website", "path": "website" },
+    { "name": "painter (reference)", "path": "reference/painter" },
+    { "name": "antlr (reference)", "path": "reference/antlr" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.insertFinalNewline": true,
+    "editor.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    "files.exclude": {
+      "**/target": true,
+      "**/node_modules": true
+    },
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    },
+    "[go]": {
+      "editor.defaultFormatter": "golang.go",
+      "editor.insertSpaces": false
+    },
+    "[toml]": {
+      "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "go.useLanguageServer": true,
+    "go.testFlags": ["-count=1"]
+  },
+  "extensions": {
+    "recommendations": [
+      "rust-lang.rust-analyzer",
+      "tamasfe.even-better-toml",
+      "golang.go",
+      "mike-lischke.vscode-antlr4",
+      "ms-azuretools.vscode-docker",
+      "redhat.vscode-yaml",
+      "editorconfig.editorconfig",
+      "davidanson.vscode-markdownlint"
+    ]
+  }
+}
