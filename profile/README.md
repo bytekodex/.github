@@ -12,7 +12,6 @@ took.
 | --- | --- |
 | [bytekodex-platform](https://github.com/bytekodex/bytekodex-platform) | The engine, in Rust. Reads JVM class files (and later .NET IL) directly, turns them into a platform-neutral token stream, and renders that stream to an image. Exposes a C ABI. |
 | [bytekodex-telegram](https://github.com/bytekodex/bytekodex-telegram) | The bot, in Go. Detects the language, drives compilation across language and runtime versions, and talks to the platform over its C ABI. |
-| [bytekodex-website](https://github.com/bytekodex/bytekodex-website) | [bytekodex.dev](https://bytekodex.dev) |
 
 Two repositories are archived and kept only as references for the rewrite:
 [bytekodex-painter](https://github.com/bytekodex/bytekodex-painter) (the original ANTLR and Skia based
