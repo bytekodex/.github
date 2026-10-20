@@ -2,7 +2,7 @@
 
 We turn source code into pictures of bytecode.
 
-Send a Java, Kotlin or Groovy snippet to the bot, and it compiles the code and replies with a syntax
+Send a Java, Kotlin or Groovy snippet to [@bytekodex_bot](https://t.me/bytekodex_bot) in Telegram, and it compiles the code and replies with a syntax
 highlighted image of the resulting bytecode — methods, constant pool, locals, and how many opcodes it all
 took.
 

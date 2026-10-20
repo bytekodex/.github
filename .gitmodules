@@ -6,10 +6,6 @@
 	path = telegram
 	url = https://github.com/bytekodex/bytekodex-telegram.git
 	branch = master
-[submodule "website"]
-	path = website
-	url = https://github.com/bytekodex/bytekodex-website.git
-	branch = master
 [submodule "reference/painter"]
 	path = reference/painter
 	url = https://github.com/bytekodex/bytekodex-painter.git

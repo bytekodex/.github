@@ -7,7 +7,6 @@
     { "name": "bytekodex (root)", "path": "." },
     { "name": "platform", "path": "platform" },
     { "name": "telegram", "path": "telegram" },
-    { "name": "website", "path": "website" },
     { "name": "painter (reference)", "path": "reference/painter" },
     { "name": "antlr (reference)", "path": "reference/antlr" }
   ],

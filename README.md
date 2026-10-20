@@ -17,7 +17,6 @@ a submodule is only a pinned commit, and the projects talk to each other through
 | --- | --- | --- | --- |
 | `platform/` | [bytekodex-platform](https://github.com/bytekodex/bytekodex-platform) | Rust | Bytecode readers, token IR, image rendering, C ABI |
 | `telegram/` | [bytekodex-telegram](https://github.com/bytekodex/bytekodex-telegram) | Go | Telegram bot, compilation orchestration |
-| `website/` | [bytekodex-website](https://github.com/bytekodex/bytekodex-website) | — | bytekodex.dev |
 | `reference/painter/` | [bytekodex-painter](https://github.com/bytekodex/bytekodex-painter) | Rust | Archived. The original ANTLR + Skia painter, kept for its palette and FFI |
 | `reference/antlr/` | [bytekodex-antlr](https://github.com/bytekodex/bytekodex-antlr) | ANTLR | Archived. The original grammars |
 
@@ -33,7 +32,7 @@ lighter clone is usually what you want:
 ```shell
 git clone https://github.com/bytekodex/.github.git bytekodex
 cd bytekodex
-git submodule update --init platform telegram website
+git submodule update --init platform telegram
 ```
 
 ## Editor setup

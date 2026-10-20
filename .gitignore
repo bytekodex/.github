@@ -25,7 +25,7 @@ bin/
 *.a
 *.h.gch
 
-# Node / website
+# Node
 node_modules/
 dist/
 .next/
